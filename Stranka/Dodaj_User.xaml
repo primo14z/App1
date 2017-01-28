@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="App1.Stranka.Dodaj_User"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1.Stranka"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="582,141,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="181"  />
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="582,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="181" />
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="582,342,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="181" />
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="582,453,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="181" />
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="582,547,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="181" />
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="1275,634,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="414,141,0,0" TextWrapping="Wrap" Text="Vnesi Ime" VerticalAlignment="Top" Height="32" Width="73"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="425,240,0,0" TextWrapping="Wrap" Text="Vnesi Priimek" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="414,342,0,0" TextWrapping="Wrap" Text="Vnesi Naslov" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="414,453,0,0" TextWrapping="Wrap" Text="Vnesi telefon" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="414,547,0,0" TextWrapping="Wrap" Text="Vnesi Tip Avta" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Dodaj Stranko" HorizontalAlignment="Left" Margin="975,634,0,0" VerticalAlignment="Top" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Nazaj" HorizontalAlignment="Left" Margin="346,634,0,0" VerticalAlignment="Top" Click="button2_Click"/>
+
+    </Grid>
+</Page>
